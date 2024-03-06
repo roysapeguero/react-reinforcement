@@ -5,7 +5,7 @@ HTML for our section project.
 
 const funFacts = (
   <div>
-    <img width="200" src="react-logo.jpg" />
+    <img width="100px" src="./react-logo.png" alt="React Logo" />
     <h1>Fun facts about React</h1>
     <ul>
       <li>Was first released in 2013</li>
