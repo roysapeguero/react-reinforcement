@@ -10,21 +10,54 @@ Render your list to the page
 
  */
 
-function Page() {
+/**
+Mini Challenge:
+Move the `header` element from Page into
+its own component called "Header"
+*/
+
+/**
+Challenge:
+
+- Move the `footer` into its own component called "Footer"
+  and render that component inside the Page component.
+- Move the `h1` and `ol` together into another component
+  called "MainContent" and render inside Page as well.
+*/
+
+function Header() {
+  return (
+    <header>
+      <nav>
+        <img src="./react-logo.png" width="100px" alt="React Logo" />
+      </nav>
+    </header>
+  );
+}
+
+function MainContent() {
   return (
     <div>
-      <header>
-        <nav>
-          <img src="./react-logo.png" width="100px" alt="React Logo" />
-        </nav>
-      </header>
       <h1>Reasons I'm excited to learn React</h1>
       <ol>
         <li>Popular library</li>
         <li>Get better at React</li>
         <li>It's great!</li>
       </ol>
-      <footer>© 2024 Peguero development. All rights reserved.</footer>
+    </div>
+  );
+}
+
+function Footer() {
+  return <footer>© 2024 Peguero development. All rights reserved.</footer>;
+}
+
+function Page() {
+  return (
+    <div>
+      <Header />
+      <MainContent />
+      <Footer />
     </div>
   );
 }
