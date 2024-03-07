@@ -36,11 +36,15 @@ Challenge:
   For practice, add a new class to the image in order to style it
 */
 
+/**
+Challenge: move the Header, Footer and MainContent components
+into their own files.
+*/
 function Header() {
   return (
     <header>
       <nav className="nav">
-        <img className="nav-logo" src="./react-logo.png" alt="React Logo" />
+        <img src="./react-logo.png" className="nav-logo" />
         <ul className="nav-items">
           <li>Pricing</li>
           <li>About</li>
