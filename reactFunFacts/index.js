@@ -1,23 +1,33 @@
-/*
-Challenge: Starting from scratch, build and render the
-HTML for our section project.
-*/
+/**
+Challenge:
 
-function FunFacts() {
+Part 1: Create a page of your own using a custom Page component
+
+It should return an ordered list with the reasons why you're
+excited to be learning React :)
+
+Render your list to the page
+
+ */
+
+function Page() {
   return (
     <div>
-      <img width="100px" src="./react-logo.png" alt="React Logo" />
-      <h1>Fun facts about React</h1>
-      <ul>
-        <li>Was first released in 2013</li>
-        <li>Was originally created by Jordan Walke</li>
-        <li>Has well over 100k stars on Github</li>
-        <li>Is maintained by Facebook</li>
-        <li>Powers thousands of enterprise apps, including mobile apps</li>
-      </ul>
+      <header>
+        <nav>
+          <img src="./react-logo.png" width="100px" alt="React Logo" />
+        </nav>
+      </header>
+      <h1>Reasons I'm excited to learn React</h1>
+      <ol>
+        <li>Popular library</li>
+        <li>Get better at React</li>
+        <li>It's great!</li>
+      </ol>
+      <footer>© 2024 Peguero development. All rights reserved.</footer>
     </div>
   );
 }
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<FunFacts />);
+root.render(<Page />);
