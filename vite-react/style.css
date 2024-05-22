@@ -20,7 +20,9 @@ main {
   padding: 57px 27px;
   height: auto;
   color: #ffffff;
-  display: flex;
+  background-image: url(./src/assets/react-icon-large.png);
+  background-repeat: no-repeat;
+  background-position: right 70%;
 }
 
 .nav--react_logo {
