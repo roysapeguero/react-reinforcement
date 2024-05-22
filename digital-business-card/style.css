@@ -85,18 +85,25 @@ a:active {
   height: 16px;
 }
 
-.about {
+.about,
+.interests {
   text-align: left;
-  margin: 30px;
+  margin: 30px 30px 0;
 }
 
-.about--title {
+.about--title,
+.interests--title {
   color: #2a2a21;
   margin-bottom: 0;
-  font-weight: 400;
+  font-weight: 700;
 }
 
-.about--body {
+.interests {
+  margin-top: 0;
+}
+
+.about--body,
+.interests--body {
   color: white;
   font-size: 12px;
   line-height: 16px;
