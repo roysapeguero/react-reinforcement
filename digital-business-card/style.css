@@ -44,7 +44,7 @@ a:active {
 .info--position {
   font-size: 16px;
   font-weight: 400;
-  color: #c59f73;
+  color: #2a2a21;
   margin-top: 5px;
   margin-bottom: 0;
 }
@@ -83,4 +83,22 @@ a:active {
 .info--button_icon {
   margin-right: 5px;
   height: 16px;
+}
+
+.about {
+  text-align: left;
+  margin: 30px;
+}
+
+.about--title {
+  color: #2a2a21;
+  margin-bottom: 0;
+  font-weight: 400;
+}
+
+.about--body {
+  color: white;
+  font-size: 12px;
+  line-height: 16px;
+  margin-top: 5px;
 }
