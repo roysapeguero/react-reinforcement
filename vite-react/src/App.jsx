@@ -2,7 +2,7 @@ import "./App.css";
 import Navbar from "./components/Navbar";
 import Main from "./components/Main";
 
-function App() {
+export default function App() {
   return (
     <>
       <Navbar />
@@ -10,5 +10,3 @@ function App() {
     </>
   );
 }
-
-export default App;
