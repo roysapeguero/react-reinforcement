@@ -26,6 +26,7 @@ a:active {
   background-color: #7c6d62;
   border-radius: 10px;
   text-align: center;
+  position: relative;
 }
 
 .info--profile_picture {
@@ -108,4 +109,22 @@ a:active {
   font-size: 12px;
   line-height: 16px;
   margin-top: 5px;
+}
+
+.footer {
+  background-color: #2a2a21;
+  height: 70px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border-radius: 0 0 10px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer--github_icon {
+  width: 30px;
+  height: 30px;
 }
