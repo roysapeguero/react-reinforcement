@@ -19,7 +19,8 @@ nav {
 main {
   padding: 57px 27px;
   height: auto;
-  color: white;
+  color: #ffffff;
+  display: flex;
 }
 
 .nav--react_logo {
@@ -60,4 +61,10 @@ main {
 .main--list_item::marker {
   font-size: 1.4rem;
   color: #61dafb;
+}
+
+.main--logo {
+  position: absolute;
+  right: 0;
+  top: auto;
 }
