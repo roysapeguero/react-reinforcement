@@ -44,15 +44,15 @@ a:active {
 
 .info--position {
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 600;
   color: #2a2a21;
   margin-top: 5px;
   margin-bottom: 0;
 }
 
 .info--website {
-  font-size: 14px;
-  font-weight: 400;
+  font-size: 12px;
+  font-weight: 500;
   color: #ffffff;
   margin-top: 10px;
 }
