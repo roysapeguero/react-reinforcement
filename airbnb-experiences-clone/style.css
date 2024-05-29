@@ -1,0 +1,12 @@
+nav {
+  box-sizing: border-box;
+  width: 100vw;
+  height: 70px;
+  box-shadow: 2px 5px 5px 0px rgba(211, 211, 211, 0.5);
+  padding: 20px;
+}
+
+.navbar--logo {
+  width: 82px;
+  height: 25px;
+}
